@@ -1,11 +1,21 @@
-\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\begin{tabular}{|p{3cm}|p{4cm}|p{4cm}|p{4cm}|}
 \hline \multicolumn{3}{|p{9cm}|}{\textit{Acceso a la aplicaci\'on}} & \textit{Versi\'on 1.0} \\
 \hline \textit{Codigo} & \textit{Fecha} & \textit{Autor} & \textit{Grado de necesidad} \\
 RF-01 & 09/12/2013 & Tirado, Colin & Alto \\
-\hline \textit{Descripcion} & \multicolumn{3}{|p{9cm}|}{Identificaci\'on del usuario en el sistema.} \\
+\hline \textit{Descripci\'on} & \multicolumn{3}{|p{9cm}|}{Identificaci\'on del usuario en el sistema.} \\
 \hline \textit{Entrada} & \multicolumn{3}{|p{9cm}|}{Nombre de usuario y contrase\~na del usuario.} \\
-\hline \textit{Precondicion} & \multicolumn{3}{|p{9cm}|}{Conexi\'on a la red.} \\
+\hline \textit{Precondici\'on} & \multicolumn{3}{|p{9cm}|}{Conexi\'on a la red.} \\
 \hline \textit{Acciones} & \multicolumn{3}{|p{9cm}|}{Insertar acciones de forma enumerada} \\
-\hline \textit{Postcondicion} & \multicolumn{3}{|p{9cm}|}{El usuario se encontrar\'a en } \\
-\hline \textit{Salida} & \multicolumn{3}{|p{9cm}|}{Insertar salida} \\ \hline
+\hline \textit{Postcondici\'on} & \multicolumn{3}{|p{9cm}|}{Se contempla dos situaciones:
+\begin{enumerate}
+\item Si se identifica con \'exito: se volcar\'a la informaci\'on correspondiente del usuario.
+\item En caso contrario: no se aplica.
+\end{enumerate}
+} \\
+\hline \textit{Salida} & \multicolumn{3}{|p{9cm}|}{Se contemplan tres situaciones
+\begin{enumerate}
+\item Si el usuario no existe: se notificar\'a que el usuario intruducido no est\'a registrado en el sistema.
+\item Si se ha introducido de forma err\'onea la contrase\~na: se notificar\'a que se ha introducido mal la contrase\~na.
+\item Si se introduce el usuario y contrase\~na correctamente: se mostrar\'a la ventana principal de la aplicaci\'on.
+\end{enumerate} } \\ \hline
 \end{tabular}
