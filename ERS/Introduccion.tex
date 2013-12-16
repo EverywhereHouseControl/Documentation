@@ -1,0 +1,64 @@
+\chapter{Introducci\'on}
+
+	***********************\newline
+	TODO: Las secciones que estan recogidas en esta Introduccion son requisitos que hay que clasificar convenientemente en los siguientes capitulos (los que distuinguen los tipos de requisitos)
+	***********************\newline
+
+\section{Caracter\'isticas del usuario}
+	Los usuarios de la aplicaci\'on deber\'an estar registrados para poder acceder a ella. El sistema contar\'a con una base de datos donde estar\'an almacenados los nombres de usuario y contrase\~nas. Dichos usuarios podr\'an acceder a la aplicaci\'on y hacer uso de ella.
+	
+	\subsection{Perfil del usuario}
+		Cada usuario tendr\'a un perfil espec\'ifico para que su interacci\'on con el sistema sea correcto y no conlleve a fallos:
+		\begin{description}
+			\item[Administrador del sistema] Usuario con gran conocimiento en el manejo del sistema con una previa capacitaci\'on por parte de la empresa. Encargado de manejar el sistema con gran responsabilidad sobre los criterios de permisos de los usuarios.
+			
+			\item[Usuario principal] Persona que interactuar\'a continuamente con el sistema, su control sobre el mismo ha de ser eficiente. El conocimiento del manejo del sistema ser\'a adquirido por el usuario gracias a una peque\~na sesi\'on de contacto guiada por el administrador, aunque la propia aplicaci\'on estar\'a capacitada con una presentaci\'on/tutorial guiada/o del uso de la misma.
+			
+			\item[Visitante] Persona que interactuar\'a ocasionalmente con el sistema, su control sobre el mismo ha de ser configurada por el usuario principal. El conocimiento del manejo del sistema será adquirido gracias a la presentaci\'on/tutorial guiada/o del uso de la aplicaci\'on.
+		\end{description}
+
+	\subsection{Jerarqu\'ia de usuarios}
+
+\section{Restricciones}
+	A continuaci\'on se presenta una lista de restricciones impuestas por los desarrolladores del sistema:
+	
+	\subsection{Limitaciones de usuario}
+		\begin{description}
+			\item[Administrador] Ninguna limitaci\'on.        
+			
+			\item[Usuario principal] Tendr\'a la capacidad de crear perfiles de 'invitados' y configurar sus permisos, limitando as\'i posibles accesos no deseados. Se ver\'a mermado su control a la hora de a\~nadir y configurar m\'as recursos al sistema.
+			
+			\item[Perfil de invitado] Su acceso a ciertas caracter\'isticas del sistema se ver\'a limitado debido a las posibles restricciones de su perfil.
+		\end{description}
+	
+	\subsection{Pol\'iticas reguladoras}
+		La aplicaci\'on se desarrollar\'a mediante software de licencia abierta, por lo tanto no se deber\'a pagar por su uso. Asimismo, la utilizaci\'on de la aplicaci\'on se har\'a mediante las pol\'iticas establecidas por este tipo de licenciamiento.
+	
+	\subsection{Limitaciones hardware}
+		Para el completo funcionamiento de esta aplicaci\'on ser\'a necesario un servidor y una serie de mecanismos hardware que se instalar\'an en el lugar donde se quiera implantar el sistema EHC.
+		
+	\subsection{Interfaces con otras aplicaciones}
+		Debido a que el sistema no interact\'ua con otros sistemas y es aut\'onomo, no se desarrollar\'an interfaces con otras aplicaciones. Las conexiones necesarias para la utilizaci\'on del servidor y los mecanismos hardware, se har\'an por medio de la configuraci\'on de los mismos.
+		
+		
+	\subsection{Funciones de control}
+		El sistema EHC administrar\'a y controlar\'a los permisos que tiene cada usuario para que su accesibilidad se haga de una manera correcta, de tal forma que acceda a la informaci\'on que le corresponde de acuerdo a sus permisos. Tambi\'en deber\'a tener controles adecuados para la gesti\'on y validaci\'on de datos, as\'i como para las tareas, mandatos e instrucciones pedidos al sistema. 
+		
+		Por otro lado, a cargo de varios supervisores estar\'an encargadas las tareas de revisi\'on de elementos como el c\'digo, el repositorio, fechas de entrega, documentaci\'on, etc.
+	
+	\subsection{Requisitos del lenguaje}
+		Tanto el material que vaya dirigido al usuario como la aplicaci\'on deben estar en espa\~nol.
+	
+	\subsection{Lenguajes de programaci\'on}
+		Se har\'a uso de las tecnolog\'ias; Java (Android) y Objective-c (iOS).    
+	    
+	\subsection{Requisitos de fiabilidad}
+		Previamente, para evitar posibles futuros fallos, la aplicaci\'on ser\'a sometida a multitud de pruebas y tests garantizando que se entregar\'a al usuario un programa totalmente funcional y eficiente.
+	
+	\subsection{Suposiciones y dependencias}
+		Se han supuesto los requisitos para que el sistema funcione correctamente con especificaciones est\'andar.
+		Es viable tratar de ampliar la capacidad de mercado capacitando al sistema con versiones de la aplicaci\'on en diferentes idiomas.
+	
+	\subsection{Requisitos futuros}
+		En un futuro se tratar\'an de implementar nuevas funcionalidades que requerir\'an una modificaci\'on de los requisitos iniciales:
+		

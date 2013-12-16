@@ -1,0 +1,23 @@
+\section{Interfaces}
+	Debido a la complejidad del sistema EHC, es necesario definir una serie de interfaces que garantice el correcto funcionamiento entre los tres grandes m\'odulos que conforman el sistema (Software, Hardware y servidor). En el caso particular de las interfaces usadas por parte de la aplicaci\'on web o m\'ovil, es solo necesario definir la interfaz con el usuario y con el servidor que posteriormente controlar\'a los distintos elementos Hardware.
+	
+	\subsection{Interfaz de usuario}
+		Los principales objetivos de la interfaz m\'ovil o web con el usuario son los siguientes puntos:
+		\begin{enumerate}
+		\item Accesibilidad.
+		\item Navegaci\'on r\'apida con el m\'inimo n\'umero de pasos para realizar una acci\'on.
+		\item Entorno agradable evitando sobrecargar la interfaz con muchos elementos.
+		\end{enumerate}
+		
+		Respet\'andose esta serie de condiciones, se garantiza una c\'omoda navegaci\'on sobre el sistema para el usuario. Todo esto ser\'a posible gracias al uso de distintos elementos gr\'aficos de los distintos entornos usados (iOS, Android y HTML5). Adem\'as, para que cada usuario tenga una navegaci\'on personalizada dependiendo de como tenga instalado el entorno EHC, se le solicitar\'a un usuario y contrase\~na para que la aplicaci\'on sea cargada de forma \'unica para ese usuario.
+	
+	\subsection{Interfaz de software y comunicaci\'on con el servidor}
+		Esta interfaz es cr\'itica en el sistema ya que sin una interfaz definida entre la aplicaci\'on y el servidor, es imposible la comunicaci\'on entre ambas y por lo tanto, el sistema EHC no funcionar\'ia correctamente.
+		La comunicaci\'on entre la interfaz de software y el servidor debe de estar garantizada por una serie de medidas de seguridad que asegure lo siguiente:
+	
+		\begin{enumerate}
+		\item Confidencialidad: impedir la divulgaci\'on de informaci\'on a personas o sistemas no autorizados.
+		\item Integridad: mantener los datos libres de modificaciones no autorizadas.
+		\item Disponibilidad: cuando no exista un problema ajeno a la aplicaci\'on relacionado con la conexi\'on a la red, la informaci\'on debe encontrarse a disposici\'on de quienes quieran acceder a ella.
+		\item Autenticidad: identifica al generador de la informaci\'on. 
+		\end{enumerate}

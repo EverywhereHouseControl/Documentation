@@ -1,0 +1,25 @@
+Ultimas moficaciones:
+    - Carpeta "SRS" renombrada a "ERS"
+    - Carpeta "ERS/RequisitosSoftware" renombrada a "ERS/Requisitos"
+    - Carpeta "Server" renombrada a "Servidor"
+    - Fichero "Configuracion e inicio.tex" renombrado a "DocumentoProyecto.tex"
+    - Documentos "RequsisitosUsuario.tex" y "RequisistosEspecificos.tex" unificados en documento "Requisitos.tex"
+    - Documento Vision reestructurado
+    - Documento ERS reestructurado
+    - Punto "Futuro mercado del sistema" movida a Capitulo "Posicionamiento" del documento "Vision"
+    - Contenidos sobre Interfaces movidos del documento "ERS" a nuevo documento "Diseño/Interfaces.tex"
+    - Punto "Perpectivas de producto" movido a Documento de Vision
+
+Pendiente:
+    - Terminar de recolocar los contenidos de la ERS
+
+Propuestas:
+    - Modificar los puntos: "Sentencia que define el problema" "Sentencia que define la posicion del producto" por texto. Plantearlo tal y como dijo Federico. Se plantean preguntas y se reponden (a modo de FAQ)
+    - Modificar apartados relativos a Stakeholders: Sugiero que eliminemos los cargos distinguidos y nos presentemos todos como iguales. No me parece correcto que se distinguan cargos cuando en la practica nadie los desempeña.
+        * Cuestion: ¿Que es eso de resumen de usuarios? ¿Se ha acordado que ellos van a desempeñar de usuarios ficticios?
+
+Guia de estilo LaTeX:
+- Introducir linea en blanco al final de cada documento
+- Tabular el documento anidando las distintas marcas de comienzo y fin convenientemente.
+
+Vochor
