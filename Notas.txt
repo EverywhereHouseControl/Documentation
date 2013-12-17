@@ -1,17 +1,13 @@
 Ultimas moficaciones:
-    - Carpeta "SRS" renombrada a "ERS"
-    - Carpeta "ERS/RequisitosSoftware" renombrada a "ERS/Requisitos"
-    - Carpeta "Server" renombrada a "Servidor"
-    - Fichero "Configuracion e inicio.tex" renombrado a "DocumentoProyecto.tex"
-    - Documentos "RequsisitosUsuario.tex" y "RequisistosEspecificos.tex" unificados en documento "Requisitos.tex"
-    - Documento Vision reestructurado
-    - Documento ERS reestructurado
-    - Punto "Futuro mercado del sistema" movida a Capitulo "Posicionamiento" del documento "Vision"
-    - Contenidos sobre Interfaces movidos del documento "ERS" a nuevo documento "Diseño/Interfaces.tex"
-    - Punto "Perpectivas de producto" movido a Documento de Vision
+    - Incorporacion de todas las plantillas de la documentacion (en formado .odt y sin traducir) al repositorio LaTeX (Directorios reestructurados)
 
 Pendiente:
     - Terminar de recolocar los contenidos de la ERS
+    - Para evitar redundancia y no dar lugar a ambiguedad hay que suprimir los requisitos de usuario y unicamente presentaremos los requisitos de Sistema. Los requisitos se mandentran en el documento vision para dar una vision superficial de las funcionalidades del producto.
+        * Nota: Esto esta recomendado en la plantilla del IEEE. Puesto que los requisitos Funcionales (de sistema) son los mismos que los de Usuario pero detallados es perfectamente viable.
+
+Observaciones:
+    - No estamos implementando Software, si no un sistema Hardware, Software. Nuestro documento ERS podría llamarse ER a secas.
 
 Propuestas:
     - Modificar los puntos: "Sentencia que define el problema" "Sentencia que define la posicion del producto" por texto. Plantearlo tal y como dijo Federico. Se plantean preguntas y se reponden (a modo de FAQ)
