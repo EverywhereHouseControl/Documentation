@@ -1,28 +1,76 @@
 % % % % % % % % % % % % % % % % % % % % % %
-% % % % % % Inicio del pre�mbulo % % % % % % 
+% % % % % % Inicio del preámbulo % % % % % %
 % % % % % % % % % % % % % % % % % % % % % %
 \documentclass[12pt,a4paper]{report}
-\usepackage[latin1]{inputenc} % Cargamos 'latin1' para introducir tildes
-\usepackage[spanish]{babel} % Cargamos 'spanish' para configurar algunos elementos del documento en espa�ol
+%\usepackage[utf]{inputenc} % Cargamos 'latin1' para introducir tildes
+\usepackage[spanish]{babel} % Cargamos 'spanish' para configurar algunos elementos del documento en español
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,includeheadfoot]{geometry} % Para introducir texto en el margen
 \usepackage{multicol}
 \pagestyle{plain}
 
-% % Configuraci�n de m�rgenes
+% % Configuración de márgenes
 \setlength{\footskip}{2cm} % Distancia entre texto y final del pie
 
-% % Configuraci�n de tablas
+% % Configuración de tablas
 \vspace{4cm} % Distancia vertical entre tablas
 \renewcommand{\arraystretch}{1.3} % Espacio entre filas
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % Fin del preambulo e inicio del cuerpo % % % % % %
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 \begin{document}
+% % Primera página del documento
+\begin{titlepage}
+    \begin{scriptsize}\noindent Facultad de Informática.\\
+        Ingeniería en Informática.\\
+        Ingeniería del Software.\\
+        Proyecto: Everywhere House Control.
+    \end{scriptsize}\\
+    \vfill
+    \begin{center}
+        \begin{Large}
+            \textbf{Proyecto IS}
+        \end{Large}
+    \end{center}
+    \vfill
+    \begin{flushright}
+        \begin{scriptsize}
+            \begin{tabular}{lll}
+                Creado por & Gutierrez, Hector & Guzman, Fernando\\
+                & Ladrón, Alejandro & Maldonado, Miguel Alexander\\
+                & Morales, Álvaro & Ochoa, Victor\\
+                & Rey, José Antonio & Saavendra, Luis Antonio\\
+                & Tirado, Colin & Vicente, Victor\\
+            \end{tabular}
+        \end{scriptsize}
+    \end{flushright}
+\end{titlepage}
+\thispagestyle{empty}
+\cleardoublepage
+\newpage
+
+% % Tabla de contenidos, etc.
+\pagenumbering{Roman}
+\tableofcontents
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
+\newpage
+\pagenumbering{arabic}
+\raggedbottom
+\interfootnotelinepenalty 10000
+
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-% % % % % % % %  % A�adir archivos externos % % % % % % % % %
+% % % % % % % %  % Añadir archivos externos % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-	\input{1.Vision/Vision.tex}
-	\input{3.Analisis/ERS/ERS.tex}
+
+    \input{HistorialCambios.tex}
+    \input{1.Vision/Vision.tex}
+    \input{2.Gestion&Planificacion/Gestion&Planificacion.tex}
+    \input{3.Analisis/Analisis.tex}%ERS/ERS.tex}
+    \input{4.Disenio/Disenio.tex} %No le gusta la "ñ", asi que las sustituimos por "ni"
+    \input{5.Implementacion&Pruebas/Implementacion&Pruebas.tex}
 
 \end{document}
+
+% % % % % % Fin del cuerpo

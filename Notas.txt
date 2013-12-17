@@ -1,7 +1,9 @@
 Ultimas moficaciones:
-    - Incorporacion de todas las plantillas de la documentacion (en formado .odt y sin traducir) al repositorio LaTeX (Directorios reestructurados)
+    - Introduccion de nuevos ficheros .tex
+    
 
 Pendiente:
+    - Solucionar problema con tildes. Hay una forma de hacerlo sin necesidad de introducir condificaciones extrañas a mano
     - Terminar de recolocar los contenidos de la ERS
     - Para evitar redundancia y no dar lugar a ambiguedad hay que suprimir los requisitos de usuario y unicamente presentaremos los requisitos de Sistema. Los requisitos se mandentran en el documento vision para dar una vision superficial de las funcionalidades del producto.
         * Nota: Esto esta recomendado en la plantilla del IEEE. Puesto que los requisitos Funcionales (de sistema) son los mismos que los de Usuario pero detallados es perfectamente viable.
@@ -17,5 +19,7 @@ Propuestas:
 Guia de estilo LaTeX:
 - Introducir linea en blanco al final de cada documento
 - Tabular el documento anidando las distintas marcas de comienzo y fin convenientemente.
+- Utilizar espacios en lugar de tabulaciones. Cada tabulacion equivaldra a 4 espacios.
+- Eliminar todos los espacios al final de linea.
 
 Vochor

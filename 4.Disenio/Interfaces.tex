@@ -1,0 +1,23 @@
+\section{Interfaces}
+    Debido a la complejidad del sistema EHC, es necesario definir una serie de interfaces que garantice el correcto funcionamiento entre los tres grandes módulos que conforman el sistema (Software, Hardware y servidor). En el caso particular de las interfaces usadas por parte de la aplicación web o móvil, es solo necesario definir la interfaz con el usuario y con el servidor que posteriormente controlará los distintos elementos Hardware.
+
+    \subsection{Interfaz de usuario}
+        Los principales objetivos de la interfaz móvil o web con el usuario son los siguientes puntos:
+        \begin{enumerate}
+        \item Accesibilidad.
+        \item Navegación rápida con el mínimo n\'umero de pasos para realizar una acción.
+        \item Entorno agradable evitando sobrecargar la interfaz con muchos elementos.
+        \end{enumerate}
+
+        Respetándose esta serie de condiciones, se garantiza una cómoda navegación sobre el sistema para el usuario. Todo esto será posible gracias al uso de distintos elementos gráficos de los distintos entornos usados (iOS, Android y HTML5). Además, para que cada usuario tenga una navegación personalizada dependiendo de como tenga instalado el entorno EHC, se le solicitará un usuario y contrase\~na para que la aplicación sea cargada de forma \'unica para ese usuario.
+
+    \subsection{Interfaz de software y comunicación con el servidor}
+        Esta interfaz es crítica en el sistema ya que sin una interfaz definida entre la aplicación y el servidor, es imposible la comunicación entre ambas y por lo tanto, el sistema EHC no funcionaría correctamente.
+        La comunicación entre la interfaz de software y el servidor debe de estar garantizada por una serie de medidas de seguridad que asegure lo siguiente:
+
+        \begin{enumerate}
+        \item Confidencialidad: impedir la divulgación de información a personas o sistemas no autorizados.
+        \item Integridad: mantener los datos libres de modificaciones no autorizadas.
+        \item Disponibilidad: cuando no exista un problema ajeno a la aplicación relacionado con la conexión a la red, la información debe encontrarse a disposición de quienes quieran acceder a ella.
+        \item Autenticidad: identifica al generador de la información.
+        \end{enumerate}
