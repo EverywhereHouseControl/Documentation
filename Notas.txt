@@ -1,15 +1,14 @@
 Ultimas moficaciones:
-    - Introduccion de nuevos ficheros .tex
+    - Solucionado el problema de la codificacion de caracteres. Ahora se puede escribir sin necesidad de introducir codificaciones extrañas para á, é, í, ó, ú, ñ, ...
     
 
 Pendiente:
-    - Solucionar problema con tildes. Hay una forma de hacerlo sin necesidad de introducir condificaciones extrañas a mano
     - Terminar de recolocar los contenidos de la ERS
     - Para evitar redundancia y no dar lugar a ambiguedad hay que suprimir los requisitos de usuario y unicamente presentaremos los requisitos de Sistema. Los requisitos se mandentran en el documento vision para dar una vision superficial de las funcionalidades del producto.
         * Nota: Esto esta recomendado en la plantilla del IEEE. Puesto que los requisitos Funcionales (de sistema) son los mismos que los de Usuario pero detallados es perfectamente viable.
 
 Observaciones:
-    - No estamos implementando Software, si no un sistema Hardware, Software. Nuestro documento ERS podría llamarse ER a secas.
+    - No estamos implementando Software, si no un sistema Hardware + Software. Nuestro documento ERS podría llamarse ER a secas.
 
 Propuestas:
     - Modificar los puntos: "Sentencia que define el problema" "Sentencia que define la posicion del producto" por texto. Plantearlo tal y como dijo Federico. Se plantean preguntas y se reponden (a modo de FAQ)
