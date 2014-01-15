@@ -1,0 +1,26 @@
+\chapter{Objetivos y restricciones}
+
+\section{Del software}
+
+La comunicaci\'on de la aplicaci\'on EHC est\'a basada en la arquitectura Cliente-Servidor que define una serie de requerimientos claves y restricciones del sistema. 
+
+La conexi\'on entre la aplicaci\'on y los distintos elementos hardware que componen el sistema deben de estar garantizada. Esta comunicaci\'on es vital para el usuario, pero existe una serie de requisitos que deben cumplirse seg\'un el \'ambito en el que se encuentre:
+\begin{itemize}
+\item Si se accede a la aplicaci\'on en el entorno EHC: la aplicaci\'on debe conectarse v\'ia red local con el servidor local instalado en la Rasperry.
+\item Si se accede a la aplicaci\'on fuera del entorno EHC: la aplicaci\'on debe conectarse v\'ia Internet con el servidor externo para tener control a los elementos instalados en el entorno EHC
+\end{itemize}
+
+Adem\'as de estos requisitos de comunicaci\'on de la aplicaci\'on EHC, el sistema debe ...
+\begin{itemize}
+\item ... ser capaz de atender una alta carga de trabajo de las peticiones solicitadas por los usuarios del sistema.
+\item ... proveer unas ciertas medidas de seguridad para garantizar el control del entorno EHC solo por aquellas personas autorizadas a ello, garantizar la integridad de los mensajes enviados, evitar la suplantaci\'on de identidad...
+\item ...
+\end{itemize}
+
+\section{Del hardware}
+Se debe de cumplir una serie de requisitos y restricciones para los componentes hardware que componen el sistema.
+\begin{itemize}
+\item Cada componente del entorno EHC debe de encontrarse en unas medidas \'optimas de ambiente (es decir, temperatura, humedad, radiaci\'on solar...) definidas seg\'un el elemento quue sea.
+\item El sistema necesita una fuente de energ\'ia constante, y si es posible, un sistema alterno que suministre energ\'ia por si la fuente principal sufre alg\'un percance. Se recomienda este sistema para que el sistema no se vea afectado con alg\'un corte de energ\'ia y as\'i con este sistema poder apagarlo de forma segura.
+\item Respetar la distancia y localizaci\'on de los dispositivos con inflarrojos u otras tecnolog\'ias de transmisi\'on directa de datos para as\'i garantizar el correcto funcionamiento de estos dispositivos. 
+\end{itemize}
