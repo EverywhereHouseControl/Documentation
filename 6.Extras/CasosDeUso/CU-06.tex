@@ -1,0 +1,23 @@
+\begin{center}
+    \begin{tabular}{|p{3cm}|p{4cm}|p{4cm}|p{4cm}|}
+    \hline \multicolumn{3}{|p{9cm}|}{\textit{Eliminar un dispositivo.}} & \textit{Versi\'on 1.0} \\
+	\hline \textit{Codigo} & \textit{Fecha} & \multicolumn{2}{|p{6cm}|}{\textit{Autor}} \\
+	CU-06 & 02/01/2014 & \multicolumn{2}{|p{6cm}|}{Tirado, Colin} \\		
+    \hline \textit{Descripci\'on} & \multicolumn{3}{|p{9cm}|}{El usuario podr\'a eliminar el estado de un dispositivo de forma remota.} \\
+    \hline \textit{Actores} & \multicolumn{3}{|p{9cm}|}{Administrador y super usuario.} \\
+    \hline \textit{Entrada} & \multicolumn{3}{|p{9cm}|}{Interfaz gr\'afica.} \\
+    \hline \textit{Precondic\'ion} & \multicolumn{3}{|p{9cm}|}{Conexi\'on establecida con el sistema.} \\
+    \hline \textit{Acciones} & \multicolumn{3}{|p{9cm}|}{
+        \begin{enumerate}
+        \item El usuario se identifica en el sistema EHC.
+        \item Tras identificarse, acceder\'a a la secci\'on \textit{Configuraci\'on} de la aplicaci\'on.
+        \item Selecciona la zona del entorno EHC donde se encuentra el dispositivo a eliminar.
+        \item Selecciona la habitaci\'on donde se encuentra el dispositivo.
+        \item Seleccionar el bot\'on de borrar situado sobre el dispositivo.
+        \item Confirmar operaci\'on.
+        \end{enumerate}
+           } \\
+    \hline \textit{Postcondici\'on} & \multicolumn{3}{|p{9cm}|}{Se borrar\'a el dipositivo de la base de datos.} \\
+    \hline \textit{Salida} & \multicolumn{3}{|p{9cm}|}{Se notificar\'a al usuario el resultado de la operaci\'on.} \\ \hline
+    \end{tabular}
+\end{center}
