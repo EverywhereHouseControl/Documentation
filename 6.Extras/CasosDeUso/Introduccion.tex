@@ -1,0 +1,33 @@
+\section{Introducci\'on}
+Con el fin de mostrar como funciona el sistema de una forma f\'acil y r\'apida, hemos elaborado este documento en el que se podr\'a consultar toda la informaci\'on relacionada a los casos de uso de los actores del sistema.
+
+\section{Casos de uso de los actores del sistema}
+Como mencionamos en el documento de dise\~no, el sistema lo componen los siguientes tipos de actores:
+\begin{enumerate}
+\item Administrador.
+\item Super usuario.
+\item Usuario.
+\end{enumerate}
+
+\subsection{Administrador}
+Este actor es el responsable de realizar una configuraci\'on inicial al cliente. Esta configuraci\'on puede ser una de estas dos opciones:
+\begin{enumerate}
+\item Alta en el sistema EHC e instalaci\'on del hardware: para clientes que no est\'an familiarizados con la electr\'onica y/o que no disponen del material necesario.
+\item Alta en el sistema EHC sin instalaci\'on del hardware: para clientes expertos y con el material necesario para instalar el sistema EHC.
+\end{enumerate}
+
+El alta en el sistema EHC no se limita a registrar el cliente en nuestra base de datos, sino que el \textit{Administrador} se encargar\'a de crear unos perfiles determinados por el cliente en el momento de la contrataci\'on.
+
+En resumen, la labor de este actor es la de realizar una configuraci\'on inicial, mantener el sistema y asistir al cliente en las incidencias del sistema.
+
+\subsection{Super usuario}
+El super usuario es el principal usuario de un entorno EHC. Tendr\'a total control en un entorno EHC determinado y podr\'a crear tantos \textit{Usuarios} como crea conveniente.
+
+En un entorno EHC puede existir m\'as de un \textit{Super Usuario}.
+
+\subsection{Usuario}
+La limitaci\'on del control en un entorno EHC del \textit{Usuario} vendr\'a limitado por los permisos otorgados por el \textit{Super Usuario}, o por el \textit{Administrador} si se cre\'o en la configuraci\'on inicial, en el momento de su creaci\'on (estos permisos se puede modificar tras la creaci\'on de este actor).
+
+En un entorno EHC puede existir m\'as de un \textit{Usuario}.
+
+\section{Casos de uso}
