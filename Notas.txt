@@ -9,6 +9,7 @@ Pendiente:
 
 Observaciones:
     - No estamos implementando Software, si no un sistema Hardware + Software. Nuestro documento ERS podría llamarse ER a secas.
+        Esto no es correcto: Lo que estamos haciendo es un Sistema Software (SW corriendo sobre HW)
 
 Propuestas:
     - Modificar los puntos: "Sentencia que define el problema" "Sentencia que define la posicion del producto" por texto. Plantearlo tal y como dijo Federico. Se plantean preguntas y se reponden (a modo de FAQ)
@@ -18,7 +19,7 @@ Propuestas:
 Guia de estilo LaTeX:
 - Introducir linea en blanco al final de cada documento
 - Tabular el documento anidando las distintas marcas de comienzo y fin convenientemente.
-- Utilizar espacios en lugar de tabulaciones. Cada tabulacion equivaldra a 4 espacios.
+- Utilizar espacios en lugar de tabulaciones. Cada tabulacion estará compuesto por 4 espacios.
 - Eliminar todos los espacios al final de linea.
 
 Vochor

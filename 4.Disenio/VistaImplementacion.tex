@@ -1,3 +1,35 @@
 \chapter{Vista de implementación}
 
-Define la tecnología a ser utilizada en la construcción del sistema y el impacto de esta en el diseño planteado
+\begin{description}
+\item[Intro 1:]Define la tecnología a ser utilizada en la construcción del sistema y el impacto de esta en el diseño planteado.
+\item[Intro 2:]Esta seccion describe la estructura general de la implementaicon del sistema. Muesta la descomposicion del sistema en subsistemas y cuales de estos son los mas importantes.
+\end{description}
+
+
+
+%%%%%%Traduccion del cuerpo de esta seccion de otro proyecto%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{description}
+
+\item[Vista Física. No estoy seguro, pero creo que Vista Implementacion = Vista fisica]
+En esta vista se muestra desde la perspectiva de un ingeniero de sistemas todos los componentes físicos del sistema así como las conexiones físicas entre esos componentes que conforman la solución (incluyendo los servicios). Para completar la documentación de esta vista se puede incluir el diagrama de despliegue de UML.
+
+
+\item[Vision general]
+La arquitectura del sistema esta distribuida en 3 capas: Capa de presentacion, capa de servicio web y capa ¿de transferencia de? datos
+
+
+\item[Capa de presentacion]
+Esta constituida por todos aquellos componentes visibles para el usuario junto con pequeños submodulos de validacion de datos de entrada y salida.
+
+Capa de Servicios web
+
+    Esta capa provee toda la logica funcional para conectar la capa de presentacion con la capa de transferencia de datos
+
+
+\item[Capa de transferencia de datos]
+    Esta capa consiste en una base de datos MYSQL que provee persistencia de datos. Se sirve de "procedimientos almacenados" que poseen acceso directo a los propipos datos de la base de datos con lo que se consigue fluidez y buena respuesta en la base de datos
+    Esta capa se comunica con la capa de Servicio Web para responder a las peticions SQL
+\end{description}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
