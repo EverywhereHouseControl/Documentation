@@ -17,7 +17,7 @@ Funcionales
 
     3- Captación de informacion relativa a sensores meteorológicos (meteorología: lluvia, viento, sol, etc)
 
-    4- Control por voz de parte del sistema  (Falta por especificar que vamos a controlar por voz exactamente)
+    4- Control por voz de parte del sistema (Falta por especificar que vamos a controlar por voz exactamente)
 
     5- Control del telefonillo modelo X
 
@@ -41,7 +41,7 @@ Funcionales
 
     15- Gestión del historial de uso de dispositivos controlados por el sistema
 
-    16- Control de regleta  de enchufes
+    16- Control de regleta de enchufes
 
     17- Control del sistema de riego automatico
 
