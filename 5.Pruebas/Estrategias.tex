@@ -1,0 +1,107 @@
+\section{Estrategias}
+\subsection{Tipos de Pruebas Software}
+Pruebas de la Base de Datos
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Asegurar la funcionalidad adecuada asi como su \newline rendimiento en las consultas.  \\ \hline
+     \textbf{Tecnicas:} & Invocar a la base de datos con consultas correctos e \newline incorrectos. \newline Comprobar que las respuestas son adecuadas en cada caso.\newline Someter a la base de datos a distintos niveles de carga de trabajo.  \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Estudio de las pruebas anteriores sin que se produzca corrupcion de datos. \\ \hline
+   \end{tabular}
+\end{center}
+
+Pruebas de Funcionalidad
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Asegurar la funcionalidad requerida. \\ \hline
+     \textbf{Tecnicas:} & Invocar dicha funcionalidad  con datos correctos e \newline incorrectos y comprobar que las respuestas son \newline adecuadas en cada caso.  \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Verificar todos los casos posibles \\ \hline
+   \end{tabular}
+\end{center}
+
+Pruebas de Interfaz de Usuario
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Asegurar la navegacion entre los distintos elementos de la app de forma fluida y sencilla  \\ \hline
+     \textbf{Tecnicas:} & Instalacion en distintos terminales para comprobar su funciomiento. \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Cada ventana/componente de la app se comporta de forma correcta.  \\ \hline
+   \end{tabular}
+\end{center}
+
+Pruebas de Rendimiento
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Someter a la Base de Datos y la app a distintas cargas de trabajo  \\ \hline
+     \textbf{Tecnicas:} & Realizacion de consultas en diferentes terminales al \newline mismo tiempo  \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Comprobar que las posibles latencias esten dentro de un margen permitido \\ \hline
+   \end{tabular}
+\end{center}
+
+\newpage
+Pruebas de Seguridad/Acceso
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & A nivel de usuario: Un acceso a los datos y ordenes \newline permitidas.\newline
+     A nivel de sistema: Solo se permitira acceso a los\newline usuarios registrados. \\ \hline
+     \textbf{Tecnicas:} & Identificar cada usuario y dependiendo de sus permisos permitir/denegar las acciones.\newline El sistema debera ser capaz de rechazar accesos no\newline registrados.  \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Verificar pruebas anteriores. \\ \hline
+   \end{tabular}
+\end{center}
+
+\subsection{Tipos de pruebas Hardware}
+
+Prueba independiente de cada modulo
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Probar la funcionalidad de forma aislada. \\ \hline
+     \textbf{Tecnicas:} & Montaje de cada componente necesario y comprobacion de un funcionamiento correcto. \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Tras comprobar funciones remotas. \\ \hline
+   \end{tabular}
+\end{center}
+
+Prueba conjunta de modulos
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Integracion con el resto de modulos probados hasta\newline ahora. \\ \hline
+     \textbf{Tecnicas:} & Añadido al protipo "final" y verificacion de todos los\newline modulos. \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Verificar pruebas anteriores. \\ \hline
+   \end{tabular}
+\end{center}
+
+Pruebas de rendimiento y stress
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Obtener tiempos de respuesta correctos y posibles\newline interferencias externas. \\ \hline
+     \textbf{Tecnicas:} & Someter al sistema a diferentes temperaturas,\newline humedades o interferencias. \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Obtener buen rendimiento bajo distintas condiciones. \\ \hline
+   \end{tabular}
+\end{center}
+
+\newpage
+Controles de Seguridad
+
+\begin{center}
+   \begin{tabular}{|p{5cm}|p{10cm}|}
+     \hline
+     \textbf{Objetivos:} & Cumplir estandares de seguridad electrica y de señales de radio. \\ \hline
+     \textbf{Tecnicas:} & Comprobar conexiones electricas. \\ \hline
+     \textbf{Criterios de \newline Finalización:} & Verificar pruebas anteriores. \\ \hline
+   \end{tabular}
+\end{center}
+
+
