@@ -6,20 +6,23 @@ En esta vista nos disponemos a detallar varios casos de uso que pertenecen al si
 El sistema lo compone los siguientes usuarios:
 \begin{description}
 \item[Administrador] Este tipo de usuario es el encargado de crear/inicializar/eliminar los distintos entornos EHC y dispositivos.
-\item[Super usuario] Este usuario es introducido en una configuración inicial por el administrador. El control en su entorno EHC es total, y también tiene el suficiente poder para crear distintos tipos de usuarios para los participantes del sistema con unos privilegios determinados por el super usuario. 
-\item[Usuario] Es un tipo de usuario creado por el super usuario. Su funcionalidad depende de los privilegios otorgados por el super usuario que ha creado este usuario, que puede ser desde un simple usuario con funciones de consulta hasta un usuario que pueda manipular y controlas los dispositivos del entorno EHC.
+\item[Super usuario] Este usuario es introducido en una configuración inicial por el \textit{Administrador}. El control en su entorno EHC es total, y también tiene el suficiente poder para crear distintos tipos de usuarios para los participantes del entorno EHC con unos distintos privilegios definidos por este. 
+\item[Usuario] Es un tipo de usuario creado por el \textit{Super usuario}. Su funcionalidad depende de los privilegios otorgados por su creador, que puede ser desde un simple \textit{Usuario} con funciones de consulta hasta un \textit{Usuario} que pueda manipular y controlas los dispositivos del entorno EHC.
 \end{description}
 
-A través de la figura ~\ref{fig:actores} mostramos un esquema general de la organización de los usuarios en el sistema:
+A través de la siguiente figura mostramos un esquema general de la organización de los actores del sistema:
 
+\begin{center}
 \includegraphics[width=0.7\textwidth]{4.Disenio/Imagenes/Actores}
+\end{center}
+
 
 
 \section{Casos de uso}
 \subsection{Visión general de los casos de uso}
-En este diagrama se representan las funcionalidades y comportamientos del sistema dependiendo del tipo de usuario que se encuentre en el entorno. Gracias al análisis de estos casos de uso, hemos obtenido los requisitos funcionales y no funcionales del sistema de una forma en la que así se agiliza el proceso de análisis del sistema.
+En esta sección se representan las funcionalidades y comportamientos del sistema dependiendo del tipo de usuario que se encuentre en el entorno. Gracias al estudio de los requisitos del sistema, hemos obtenido los casos de uso del sistema de una forma en la que así se agiliza el diseño del sistema y por lo tanto, su posterior implementación.
  
-Mostramos a través de las figuras ~\ref{fig:cuSuperusuario} y ~\ref{fig:cuSuperusuario} los diagrama de casos de uso tanto del super usuario como del administrador. Evitamos incluir el diagrama del usuario básico ya que el super usuario es una extensión de este.
+Mostramos a través de las figuras ~\ref{fig:cuSuperusuario} y ~\ref{fig:cuSuperusuario} los diagrama de casos de uso tanto del \textit{Super usuario} como del \textit{Administrador}. Evitamos incluir el diagrama del \textit{Usuario} ya que el \textit{Super usuario} es una extensión de este.
 
 \begin{figure}[h!]
 	\centering
@@ -37,6 +40,4 @@ Mostramos a través de las figuras ~\ref{fig:cuSuperusuario} y ~\ref{fig:cuSuper
 
 
 \subsection{Casos de uso en detalle}
-Debido a la gran cantidad de casos de uso que hemos analizado en el sistema, la información detallada de cada uno de los casos de uso están localizados en el documento de \textit{Casos de uso} o conocido como \textit{Vista de escenarios}.
-\section{Comprensión de los casos de uso}
-(actores: tipo usuario puede llevar a la confusion.)
+Debido a la gran cantidad de casos de uso que hemos analizado en el sistema, la información detallada de cada uno de los casos de uso,o comúnmente conocido como \textit{Vista de escenarios}, están localizados en el documento de \textit{Casos de uso}.
