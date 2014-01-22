@@ -11,69 +11,67 @@ Requisitos de Sistema
 Funcionales
     /*Son similares a los anteriores pero con distinto nivel de abstracción. Se detalla mas la funcion, indicando exactamentequée variables intervienen.
 
-    - Control de TV modelo X mediante codigos del mando modelo Y. Se ofrecera una funcionalidad basica (parcial) del mando a distancia.
+    1- Control de TV modelo X mediante codigos del mando modelo Y. Se ofrecera una funcionalidad basica (parcial) del mando a distancia.
 
-    - Captacion de informacion relativa a la programación ofrecida en la TV modelo X
+    2- Captacion de informacion relativa a la programación ofrecida en la TV modelo X
 
-    - Captación de informacion relativa a sensores meteorológicos (meteorología: lluvia, viento, sol, etc)
+    3- Captación de informacion relativa a sensores meteorológicos (meteorología: lluvia, viento, sol, etc)
 
-    - Control por voz de parte del sistema  (Falta por especificar que vamos a controlar por voz exactamente)
+    4- Control por voz de parte del sistema  (Falta por especificar que vamos a controlar por voz exactamente)
 
-    - Control del telefonillo modelo X
-    
-    - Control del telefono fijo modelo X
+    5- Control del telefonillo modelo X
 
-    - Captación de informacion web relativa a la prevision meteorológica de la zona elegida por el usuario.
+    6- Control del telefono fijo modelo X
 
-    - Captación de infomración relativa al consumo energético en tiempo real (factura de la luz)
+    7- Captación de informacion web relativa a la prevision meteorológica de la zona elegida por el usuario
 
-    - Control del sistema de climatización modelo X.
+    8- Captación de información relativa al consumo energético en tiempo real (factura de la luz)
 
-    - Control de subida y bajada de la puerta del garaje con sistema de reporte del estado actual de las misma
+    9- Control del sistema de climatización modelo X
 
-    - Control de iluminazion por zonas a elección del usuario.
+    10- Control de subida y bajada de la puerta del garaje con sistema de reporte del estado actual de las misma
 
-    - Control de subida y bajada de persianas motorizadas con sistema de reporte del estado actual de las mismas.
+    11- Control de iluminazion por zonas a elección del usuario
 
-    - Control de subida y bajada de toldos motorizados con sistema de reporte del estado actual de las mismas.
+    12- Control de subida y bajada de persianas motorizadas con sistema de reporte del estado actual de las mismas
 
-    - Control de sensores de movimiento
+    13- Control de subida y bajada de toldos motorizados con sistema de reporte del estado actual de las mismas
 
-    - Gestión del historial de uso de dispositivos controlados por el sistema
+    14- Control de sensores de movimiento
 
-    - Control de regleta  de enchufes
+    15- Gestión del historial de uso de dispositivos controlados por el sistema
 
-    - Control del sistema de riego automatico
+    16- Control de regleta  de enchufes
 
-    - Control del sistema de deteccion de indencios (sensor de humo)
+    17- Control del sistema de riego automatico
 
-    - Control de camaras de vigilancia
+    18- Control del sistema de deteccion de indencios (sensor de humo)
 
-    - Control de la aplicación en modo offline cuando el usuario se encuentra dentro de la casa domotizada
+    19- Control de camaras de vigilancia
 
-    - Control de subsistemas funcionales mediante perfiles de mandatos
+    20- Control de la aplicación en modo offline cuando el usuario se encuentra dentro de la casa domotizada
 
-    - Control remoto a traves de aplicacion cliente de cada uno de los subsistemas funcionales del entorno
+    21- Control de subsistemas funcionales mediante perfiles de mandatos
 
-    - Reporte de avisos programables por el usuario (Sistema de alarmas)
+    22- Control remoto a traves de aplicacion cliente de cada uno de los subsistemas funcionales del entorno
 
-    - Programacion de eventos (grabar tele, despertadores, subir persianas, luces, etc)
+    23- Reporte de avisos programables por el usuario (Sistema de alarmas)
 
-    - Edición de representación grafica del entorno controlado
+    24- Programacion de eventos (grabar tele, despertadores, subir persianas, luces, etc)
 
-    - Consulta de reporte de informacion relativo al estado de cada uno de los subsistemas funcionales del entorno
+    25- Edición de representación grafica del entorno controlado
 
-    - Consulta de reporte de información del sistema en formato audible
+    26- Consulta de reporte de informacion relativo al estado de cada uno de los subsistemas funcionales del entorno
 
-    - Proceso de login en la aplicacion cliente
+    27- Consulta de reporte de información del sistema en formato audible
 
-    - Consulta de perfil de usuario
+    28- Proceso de login en la aplicacion cliente
 
-    - Edicion de peril de usuario
+    29- Consulta de perfil de usuario
 
-    - Personalizacion de interfaz grafica de la aplicacion cliente
-    
-    - 
+    30- Edicion de peril de usuario
+
+    31- Personalizacion de interfaz grafica de la aplicacion cliente
 
 
 No funcionales (Restricciones)
