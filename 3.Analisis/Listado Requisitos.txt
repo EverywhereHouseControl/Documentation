@@ -20,6 +20,8 @@ Funcionales
     - Control por voz de parte del sistema  (Falta por especificar que vamos a controlar por voz exactamente)
 
     - Control del telefonillo modelo X
+    
+    - Control del telefono fijo modelo X
 
     - Captación de informacion web relativa a la prevision meteorológica de la zona elegida por el usuario.
 
@@ -59,13 +61,23 @@ Funcionales
 
     - Edición de representación grafica del entorno controlado
 
-    - Reporte de informacion relativo al estado de cada uno de los subsistemas funcionales del entorno
+    - Consulta de reporte de informacion relativo al estado de cada uno de los subsistemas funcionales del entorno
 
-    - Reporte de información del sistema en formato audible.
+    - Consulta de reporte de información del sistema en formato audible
+
+    - Proceso de login en la aplicacion cliente
+
+    - Consulta de perfil de usuario
+
+    - Edicion de peril de usuario
+
+    - Personalizacion de interfaz grafica de la aplicacion cliente
+    
+    - 
 
 
 No funcionales (Restricciones)
-    -> Relativas al producto
+    -> Relativas al producto [SOLO VAMOS A CONSIDERAR ESTOS, ASI QUE NO ES NECESAIRO DECIR QUE SON RELATIVOS AL PRODUCTO]
         - Aplicaciones cliente ejecutables bajo las siguientes plataformas: Windows, Linux, Mac OS X, Android y  iOS
 
         - Coste económico de componentes HW relativos al control del propio sistema en el entorno instalación hardwareantenimiento del sistema reducido.
