@@ -1,50 +1,18 @@
 \chapter{Introducción}
 
-    ***********************\newline
-    TODO: Las secciones que estan recogidas en esta Introduccion son requisitos que hay que clasificar convenientemente en los siguientes capitulos (los que distuinguen los tipos de requisitos)
-    ***********************\newline
+    En este documento se expondran los requisitos funcionales (funcionalidades) y no funcoinales (restricciones) que el sistema desarrollado debe 
 
-\section{Características del usuario}
-    Los usuarios de la aplicación deberán estar registrados para poder acceder a ella. El sistema contará con una base de datos donde estarán almacenados los nombres de usuario y contrase\~nas. Dichos usuarios podrán acceder a la aplicación y hacer uso de ella.
+\section{Tipos de Participantes}
+    Todos los participantes que interactuen con el sistema perteneceran a alguno de los siguientes tipos de participante:
+    
+    \begin{description}
+        \item[Administrador] Personal cualificado con conocimientos avanzados sobre el funcionamiento del sistema encargado realizar tareas de instalacion, mantenimiento y reparación del mismo. Este tipo de participante tendra acceso total al sistema sin ningun tipo de restriccion.
 
-    \subsection{Tipos de Participantes}
-        Todos los participantes que interactuen con el sistema perteneceran a alguno de los siguientes tipos de participante:
-        
-        \begin{description}
-            \item[Administrador] Personal cualificado con conocimientos avanzados sobre el funcionamiento del sistema encargado realizar tareas de instalacion, mantenimiento y reparación del mismo. Este tipo de participante tendra acceso total al sistema sin ningun tipo de restriccion.
+        \item[Superusuario] Usuario encargado de gestionar las cuentas de usuario. Este tipo de participante dispondra de privilegios especiales para crear o eliminar cuentas de usuario, y otorgar o revocar el acceso de los usuarios a determinadas funcionalidades del sistema.
 
-            \item[Superusuario] Usuario encargado de gestionar las cuentas de usuario. Este tipo de participante dispondra de privilegios especiales para crear o eliminar cuentas de usuario, y otorgar o revocar el acceso de los usuarios a determinadas funcionalidades del sistema.
-
-            \item[Usuario] Usuario final del sistema encargado de hacer uso de las funcionalidades del sistema a las que se le haya dado acceso por parte de un Administrador o Superusuario.
-        \end{description}
-
-    \subsection{Políticas reguladoras}
-        La aplicación se desarrollará mediante software de licencia abierta, por lo tanto no se deberá pagar por su uso. Asimismo, la utilización de la aplicación se hará mediante las políticas establecidas por este tipo de licenciamiento.
-
-    \subsection{Limitaciones hardware}
-        Para el completo funcionamiento de esta aplicación será necesario un servidor y una serie de mecanismos hardware que se instalarán en el lugar donde se quiera implantar el sistema EHC.
-
-    \subsection{Interfaces con otras aplicaciones}
-        Debido a que el sistema no interactúa con otros sistemas y es autónomo, no se desarrollarán interfaces con otras aplicaciones. Las conexiones necesarias para la utilización del servidor y los mecanismos hardware, se harán por medio de la configuración de los mismos.
-
-
-    \subsection{Funciones de control}
-        El sistema EHC administrará y controlará los permisos que tiene cada usuario para que su accesibilidad se haga de una manera correcta, de tal forma que acceda a la información que le corresponde de acuerdo a sus permisos. También deberá tener controles adecuados para la gestión y validación de datos, así como para las tareas, mandatos e instrucciones pedidos al sistema.
-
-        Por otro lado, a cargo de varios supervisores estarán encargadas las tareas de revisión de elementos como el c\'digo, el repositorio, fechas de entrega, documentación, etc.
-
-    \subsection{Requisitos del lenguaje}
-        Tanto el material que vaya dirigido al usuario como la aplicación deben estar en espa\~nol.
-
-    \subsection{Lenguajes de programación}
-        Se hará uso de las tecnologías; Java (Android) y Objective-c (iOS).
-
-    \subsection{Requisitos de fiabilidad}
-        Previamente, para evitar posibles futuros fallos, la aplicación será sometida a multitud de pruebas y tests garantizando que se entregará al usuario un programa totalmente funcional y eficiente.
-
-    \subsection{Suposiciones y dependencias}
-        Se han supuesto los requisitos para que el sistema funcione correctamente con especificaciones estándar.
-        Es viable tratar de ampliar la capacidad de mercado capacitando al sistema con versiones de la aplicación en diferentes idiomas.
-
-    \subsection{Requisitos futuros}
-        En un futuro se tratarán de implementar nuevas funcionalidades que requerirán una modificación de los requisitos iniciales:
+        \item[Usuario] Usuario final del sistema encargado de hacer uso responsable de las funcionalidades del sistema a las que se le haya dado acceso por parte de un Administrador o Superusuario.
+    \end{description}
+    
+    
+    
+ 

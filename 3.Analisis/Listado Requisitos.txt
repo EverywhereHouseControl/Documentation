@@ -6,21 +6,91 @@ Tipos de usuario:
 
 -    Usuario
 
-Requisitos funcionales:
 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+Requisitos de Sistema
+Funcionales
+    /*Son similares a los anteriores pero con distinto nivel de abstracción. Se detalla mas la funcion, indicando exactamentequée variables intervienen.
+
+    - Control de TV modelo X mediante codigos del mando modelo Y. Se ofrecera una funcionalidad basica (parcial) del mando a distancia.
+
+    - Captacion de informacion relativa a la programación ofrecida en la TV modelo X
+
+    - Captación de informacion relativa a sensores meteorológicos (meteorología: lluvia, viento, sol, etc)
+
+    - Control por voz de parte del sistema  (Falta por especificar que vamos a controlar por voz exactamente)
+
+    - Control del telefonillo modelo X
+
+    - Captación de informacion web relativa a la prevision meteorológica de la zona elegida por el usuario.
+
+    - Captación de infomración relativa al consumo energético en tiempo real (factura de la luz)
+
+    - Control del sistema de climatización modelo X.
+
+    - Control de subida y bajada de la puerta del garaje con sistema de reporte del estado actual de las misma
+
+    - Control de iluminazion por zonas a elección del usuario.
+
+    - Control de subida y bajada de persianas motorizadas con sistema de reporte del estado actual de las mismas.
+
+    - Control de subida y bajada de toldos motorizados con sistema de reporte del estado actual de las mismas.
+
+    - Control de sensores de movimiento
+
+    - Gestión del historial de uso de dispositivos controlados por el sistema
+
+    - Control de regleta  de enchufes
+
+    - Control del sistema de riego automatico
+
+    - Control del sistema de deteccion de indencios (sensor de humo)
+
+    - Control de camaras de vigilancia
+
+    - Control de la aplicación en modo offline cuando el usuario se encuentra dentro de la casa domotizada
+
+    - Control de subsistemas funcionales mediante perfiles de mandatos
+
+    - Control remoto a traves de aplicacion cliente de cada uno de los subsistemas funcionales del entorno
+
+    - Reporte de avisos programables por el usuario (Sistema de alarmas)
+
+    - Programacion de eventos (grabar tele, despertadores, subir persianas, luces, etc)
+
+    - Edición de representación grafica del entorno controlado
+
+    - Reporte de informacion relativo al estado de cada uno de los subsistemas funcionales del entorno
+
+    - Reporte de información del sistema en formato audible.
+
+
+No funcionales (Restricciones)
+    -> Relativas al producto
+        - Aplicaciones cliente ejecutables bajo las siguientes plataformas: Windows, Linux, Mac OS X, Android y  iOS
+
+        - Coste económico de componentes HW relativos al control del propio sistema en el entorno instalación hardwareantenimiento del sistema reducido.
+
+        - “Buena” velocidad de respuesta del sistema. Sistema en “tiempo real”.
+
+        - Alto nivel de seguridad en todo el sistema. Control de autenticación.
+
+        - Sistema accesible, fácil de usar
+
+        - Proyecto que verifique las reglas del Free Open Source Software (FOSS)
+
+    -> Organizativas [OMITIDO]
+        ¿Cuales son estos?
+
+    -> Externas [OMITIDO]
+        /*Para definir estos deberíamos estar muy puestos en el mundo de la domótica. Enterarnos de qué estándares debemos cumplir (por ej: de seguridad, etc)
+        Para hacer esto nos ayudará mucho ojear bien (detalladamente) el resto de proyectos de domótica similares que encontramos.*/
+
+        - ¿ Cumplir algún estándar de seguridad ?
+        /*Supongo que para poder comercializar algo tendrán que darnos el visto bueno (legal) alguien*/
+
+
+
+
+De dominio (Restricciones) [OMITIDO]
+/*Aquí, si no he entendido mal, simplemente tendríamos que indicar cuáles de los requisitos identificados anteriormente son de dominio. Por tanto, de momento podemos obviar este apartado ya que no identifica nuevos requisitos/
+
