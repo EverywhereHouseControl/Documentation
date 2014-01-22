@@ -1,0 +1,26 @@
+Tipos de usuario:
+
+-  Administrador
+
+-   Superusuario
+
+-    Usuario
+
+Requisitos funcionales:
+
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 

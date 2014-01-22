@@ -7,28 +7,15 @@
 \section{Características del usuario}
     Los usuarios de la aplicación deberán estar registrados para poder acceder a ella. El sistema contará con una base de datos donde estarán almacenados los nombres de usuario y contrase\~nas. Dichos usuarios podrán acceder a la aplicación y hacer uso de ella.
 
-    \subsection{Perfil del usuario}
-        Cada usuario tendrá un perfil específico para que su interacción con el sistema sea correcto y no conlleve a fallos:
+    \subsection{Tipos de Participantes}
+        Todos los participantes que interactuen con el sistema perteneceran a alguno de los siguientes tipos de participante:
+        
         \begin{description}
-            \item[Administrador del sistema] Usuario con gran conocimiento en el manejo del sistema con una previa capacitación por parte de la empresa. Encargado de manejar el sistema con gran responsabilidad sobre los criterios de permisos de los usuarios.
+            \item[Administrador] Personal cualificado con conocimientos avanzados sobre el funcionamiento del sistema encargado realizar tareas de instalacion, mantenimiento y reparación del mismo. Este tipo de participante tendra acceso total al sistema sin ningun tipo de restriccion.
 
-            \item[Usuario principal] Persona que interactuará continuamente con el sistema, su control sobre el mismo ha de ser eficiente. El conocimiento del manejo del sistema será adquirido por el usuario gracias a una peque\~na sesión de contacto guiada por el administrador, aunque la propia aplicación estará capacitada con una presentación/tutorial guiada/o del uso de la misma.
+            \item[Superusuario] Usuario encargado de gestionar las cuentas de usuario. Este tipo de participante dispondra de privilegios especiales para crear o eliminar cuentas de usuario, y otorgar o revocar el acceso de los usuarios a determinadas funcionalidades del sistema.
 
-            \item[Visitante] Persona que interactuará ocasionalmente con el sistema, su control sobre el mismo ha de ser configurada por el usuario principal. El conocimiento del manejo del sistema será adquirido gracias a la presentación/tutorial guiada/o del uso de la aplicación.
-        \end{description}
-
-    \subsection{Jerarquía de usuarios}
-
-\section{Restricciones}
-    A continuación se presenta una lista de restricciones impuestas por los desarrolladores del sistema:
-
-    \subsection{Limitaciones de usuario}
-        \begin{description}
-            \item[Administrador] Ninguna limitación.
-
-            \item[Usuario principal] Tendrá la capacidad de crear perfiles de 'invitados' y configurar sus permisos, limitando así posibles accesos no deseados. Se verá mermado su control a la hora de a\~nadir y configurar más recursos al sistema.
-
-            \item[Perfil de invitado] Su acceso a ciertas características del sistema se verá limitado debido a las posibles restricciones de su perfil.
+            \item[Usuario] Usuario final del sistema encargado de hacer uso de las funcionalidades del sistema a las que se le haya dado acceso por parte de un Administrador o Superusuario.
         \end{description}
 
     \subsection{Políticas reguladoras}
