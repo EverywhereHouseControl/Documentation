@@ -2,29 +2,35 @@
     Para proveer de una forma efectiva el servicio y que se ajuste a las necesidades de los usuarios, es necesario identificar e involucrar a todos los participantes en el proyecto como parte del proceso de modelado de requerimientos. También es necesario identificar a los usuarios del sistema y asegurarse de que el conjunto de participantes en el proyecto los representa adecuadamente. Esta sección muestra un perfil de los participantes y de los usuarios involucrados en el proyecto, así como los problemas más importantes que éstos perciben para enfocar la solución propuesta hacia ellos. No describe sus requisitos específicos pero proporciona la justificación de por qué estos requisitos son necesarios.
 
 \section{Resumen de \textit{Stakeholders}}
-    \begin{tabular}{|p{4cm}|p{3cm}|p{10cm}|}
-        \hline \textbf{Nombre} &  \textbf{Descripción} & \textbf{Responsbilidades} \\
-        \hline Morales Lozano, Álvaro & Representante Global de la empresa EHC. &
-        \begin{itemize}
-            \item Seguimiento del desarrollo del proyecto a nivel global.
-            \item Aprueba requisitos y funcionalidades a nivel global.
-        \end{itemize} \\
-        \hline Vicente Sánchez, Victor & Representante del Departamento de Software. &
-        \begin{itemize}
-            \item Seguimiento del desarrollo del proyecto a nivel software.
-            \item Aprueba requisitos y funcionalidades.
-        \end{itemize} \\
-        \hline Gutiérrez, Héctor & Representante del Departamento de Hardware. &
-        \begin{itemize}
-            \item Seguimiento del desarrollo del proyecto a nivel hardware.
-            \item Aprueba requisitos y funcionalidades.
-        \end{itemize} \\
-        \hline Ladrón De Guevara, Alejandro & Representante del Departamento de Servidor.&
-        \begin{itemize}
-            \item Seguimiento del desarrollo del proyecto a nivel servidor.
-            \item Aprueba requisitos y funcionalidades.
-        \end{itemize} \\
-        \hline
+    \begin{tabular}{|p{4.5cm}|p{4cm}|p{8cm}|}
+        \hline \textbf{Nombre} &  \textbf{Descripción} & \textbf{Responsabilidades} \\
+        \hline Morales Lozano, Álvaro & Representante global de la empresa EHC. &
+		Seguimiento del desarrollo del proyecto a nivel global y la aprobación de requisitos y funcionalidades a nivel global. \\
+        \hline Vicente Sánchez, Victor & Representante del departamento de Software. &
+        Seguimiento del desarrollo del proyecto a nivel software y la aprobación de requisitos y funcionalidades.\\
+        \hline Gutiérrez, Héctor & Representante del departamento de Hardware. &
+		Seguimiento del desarrollo del proyecto a nivel hardware y la aprobación de requisitos y funcionalidades. \\
+        \hline Ladrón De Guevara, Alejandro & Representante del departamento de Servidor.&
+        Seguimiento del desarrollo del proyecto a nivel servidor y la aprobación de requisitos y funcionalidades. \\
+        \hline Maldonado Lenis, Miguel Alexander & Desarrollador del departamento de Software. &
+		Desarrollador de la aplicación de Android y responsable de la conectividad entre la aplicación y el servidor. \\        
+        \hline Tirado Caamaño, Colin & Representante del departamento de documentación. &
+		Mantener actualizada la documentación de los distintos departamentos y la organización y maquetación de la documentación. \\  
+        \hline Guzman, Fernando & Desarrollador del departamento de Hardware & 
+        Implementación y desarrollo de los distintos prototipos Hardware. \\                    
+        \hline Ochoa, Victor & Desarrollador del departamento de Hardware &
+		Implementación y desarrollo de los distintos prototipos Hardware. \\                            
+        \hline Rey, José Antonio & Desarrollador del departamento del servidor &
+		Responsable del manteniento y gestión de los distintos sitios contratados por la empresa y la instalación de la infraestructura en el servidor. \\                            
+        \hline Saavedra, Luis Antonio & Desarrollador del departamento del servidor &
+		Responsable de la implementación de los servicios del servidor. \\
+        \hline Peinado Gil, Federico & Departamento de control de calidad &
+TBD
+		\\		
+		\hline Hassan Collado, Samer & Departamento de control de calidad &
+		TBD		
+		\\		
+		\hline                            
     \end{tabular}
 
 \section{Resumen de usuarios}
@@ -183,18 +189,20 @@
 \section{Alternativas y competencias}
     A continuación, se mostrará una lista de las principales alternativas al sistema:\\
     \begin{itemize}
-    \item {\bf OpenDomotica} -  https://opendomotica.wordpress.com/
+    \item {\bf OpenDomotica} -  https://opendomotica.wordpress.com/ \par
+	Se trata de un proyecto que tiene como objetivo crear un entorno domótico con software libre que compita con el actual mercado de la domótica. Como aporte interesante de este proyecto, es la tecnología que se usa para la comunicación entre los distintos dispositivos: X10, que se trata de un protocolo estándar para la transmisión por la linea eléctrica. Este aporte le da un gran valor al proyecto, ya que con esta tecnologia, si tenemos una toma de red eléctrica, tenemos una toma de red domótica.
             \begin{tabbing}
             ---- \= ------ \= ----- \= ----- \...\kill
             \>\> {\bf Autor/es}: Juan Antonio Infantes Díaz (Dirigido por David Santo Orcero)\\
             \>\> {\bf Inicio}: Noviembre del 2008.\\
             \>\> {\bf Objetivo}: Entorno domótico libre.\\
-            \>\> {\bf Tecnologias utilizadas}:\\
+            \>\> {\bf Tecnologías utilizadas}:\\
             \>\>\> {\bf Arduino}: Hardware libre.\\
             \>\>\> {\bf Mister House}: Software libre.\\
             \end{tabbing}
                
-     \item {\bf OpenDomo} - http://es.opendomo.org/
+     \item {\bf OpenDomo} - http://es.opendomo.org/ \par
+Es un sistema de control domótico libre y seguro. Se centra en ofrecer una fácil accesibilidad y en la seguridad que puede dar al cliente al usar este servicio (a través de cámaras de video, sensores de movimiento...). 
      		\begin{tabbing}
      		---- \= ------ \= ----- \= ----- \...\kill
             \>\> {\bf Autor/es}: Daniel Lerch y Oriol Palenzuela.\\
