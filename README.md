@@ -17,6 +17,25 @@ all documents have been edited with latex. Numbered folders contains the source 
 3. [Server](https://github.com/EverywhereHouseControl/ServerBackEnd)
 
 
+## Files located on Documentation
+1. **Closed documents**
+	- [**Documentos finalizados**](https://github.com/EverywhereHouseControl/Documentation/tree/master/Documentos%20finalizados)
+2. LATEX code
+  	- [1.Vision](https://github.com/EverywhereHouseControl/Documentation/1.Vision)
+	- [2.GestionYPlanificacion](https://github.com/EverywhereHouseControl/Documentation/2.GestionYPlanificacion)
+	- [3.Analisis](https://github.com/EverywhereHouseControl/Documentation/3.Analisis)
+	- [4.Disenio](https://github.com/EverywhereHouseControl/Documentation/4.Disenio)
+	- [5.Pruebas](https://github.com/EverywhereHouseControl/Documentation/5.Pruebas)
+	- [6.Extras](https://github.com/EverywhereHouseControl/Documentation/6.Extras)
+	- [7.PlanDeGestionDeRiesgos](https://github.com/EverywhereHouseControl/Documentation/7.PlanDeGestionDeRiesgos)
+	- [Plantillas](https://github.com/EverywhereHouseControl/Documentation/Plantillas)
+3. Departamental documentation
+	- Hardware
+	- Servidor
+	- Software
+
+*Note: look at the departmental repositories to query the current documents.*
+
 ## Intresting links
 
 - [EHC Everywhere House Control](http://ehcontrol.net/)
