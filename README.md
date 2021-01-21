@@ -1,8 +1,8 @@
 Documentation EHC.
 ==================
-[<div align="center">
-<img src="http://ehcontrol.net/images/logo.png">
-</div>](http://ehcontrol.net/)
+<div align="center">
+<img src="https://avatars.githubusercontent.com/u/5992872?s=200&v=4">
+</div>
 
 ## Purpose
 
